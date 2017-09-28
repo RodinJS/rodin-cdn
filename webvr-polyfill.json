@@ -1,5 +1,6 @@
 {
     "name": "webvr-polyfill",
+    "semver": true,
     "source": {
         "type": "git",
         "url": "https://github.com/googlevr/webvr-polyfill.git"
