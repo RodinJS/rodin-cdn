@@ -6,17 +6,10 @@
         "url": "git@github.com:RodinJS/Rodin-Lib.git"
     },
     "commands": {
-        "prebuild": "npm i"
+        "prebuild": "npm i",
+        "build": "gulp prod"
     },
-    
-    "versions": {
-        "0.0.5" : {
-            "commands": {
-                "build": "gulp prod"
-            },
-            "outputs": {
-                "bundle": "./dist"
-            }
-        }
+    "outputs": {
+        "bundle": "./dist"
     }
 }
