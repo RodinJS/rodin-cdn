@@ -11,12 +11,5 @@
     },
     "outputs": {
         "bundle": "./dist"
-    },
-    "versions": {
-        "0.0.6": {
-            "commands": {
-                "build": "other command"
-            }
-        }
     }
 }
