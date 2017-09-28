@@ -2,7 +2,7 @@
     "name": "rodin-main",
     "source": {
         "type": "git",
-        "url": "https://github.com/RodinJS/Rodin-Lib.git"
+        "url": "git@github.com:RodinJS/Rodin-Lib.git"
     },
     "commands": {
         "prebuild": "npm i"
