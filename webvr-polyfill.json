@@ -1,0 +1,11 @@
+{
+    "name": "webvr-polyfill",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/googlevr/webvr-polyfill.git"
+    },
+    "commands": {
+        "prebuild": "npm i",
+        "build": "npm run build"
+    }
+}
