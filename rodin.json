@@ -5,7 +5,7 @@
     },
     "commands": {
         "prebuild": "npm i"
-    }
+    },
     
     "versions": {
         "0.0.5" : {
