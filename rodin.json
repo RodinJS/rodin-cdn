@@ -1,5 +1,6 @@
 {
     "name": "rodin-main",
+    "semver": true,
     "source": {
         "type": "git",
         "url": "git@github.com:RodinJS/Rodin-Lib.git"
