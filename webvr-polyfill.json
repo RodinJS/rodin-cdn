@@ -15,7 +15,7 @@
     "versions":{
         "0.1.0": {
             "commands": {
-                "prebuild": "bower install",
+                "prebuild": "bower install; mkdir js; mkdir js/deps",
                 "build": "make"
             }            
         },
