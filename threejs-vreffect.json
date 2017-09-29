@@ -3,7 +3,7 @@
     "semver": false,
     "source": {
         "type": "git",
-        "url": "git@github.com:serghov/three-loaders.git"
+        "url": "git@github.com:serghov/three-vreffect.git"
     },
     "commands": {
     },
