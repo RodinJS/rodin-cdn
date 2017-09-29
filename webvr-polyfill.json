@@ -10,7 +10,10 @@
         "build": "npm run build"
     },
     "output": {
-        "./build": "./dest"
+        "./dist": {
+            "from": "./build",
+            "main": "webvr-polyfill.js"
+        }
     },
     "versions":{
         "0.1.0": {
