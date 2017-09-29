@@ -9,13 +9,13 @@
         "prebuild": "npm i",
         "build": "npm run build"
     },
-    "outputs": {
+    "output": {
         "./build": "./dest"
     },
     "versions":{
         "0.1.0": {
             "commands": {
-                "prebuild": "npm i; bower install",
+                "prebuild": "bower install",
                 "build": "make"
             }            
         },
