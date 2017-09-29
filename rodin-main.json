@@ -10,6 +10,6 @@
         "build": "gulp clean; gulp js; gulp vendor;"
     },
     "output": {
-        "./dist": "./dist"
+        "./dist": "./bundle"
     }
 }
