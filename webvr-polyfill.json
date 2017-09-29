@@ -11,7 +11,7 @@
     },
     "versions":{
         "0.0.1": {
-            "prebuild": "bower install"
+            "prebuild": "bower install",
             "build": "make"
         },
         "0.2.7": {
