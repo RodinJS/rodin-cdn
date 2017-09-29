@@ -1,0 +1,13 @@
+{
+    "name": "webvr-boilerplate",
+    "semver": true,
+    "source": {
+        "type": "git",
+        "url": "https://github.com/borismus/webvr-boilerplate.git"
+    },
+    "commands": {
+    },
+    "output": {
+        "./build": "./bundle"
+    }
+}
