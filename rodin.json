@@ -7,7 +7,7 @@
     },
     "commands": {
         "prebuild": "npm i",
-        "build": "gulp prod"
+        "build": "gulp clean; gulp js; gulp vendor;"
     },
     "output": {
         "./dist": "./dist"
