@@ -8,6 +8,9 @@
     "commands": {
     },
     "output": {
-        "./bundle": "./bundle"
+        "./bundle": {
+            "from": "./bundle",
+            "main": "index.js"
+        }
     }
 }
