@@ -1,5 +1,5 @@
 {
-    "name": "rodin-main",
+    "name": "rodin/main",
     "semver": true,
     "source": {
         "type": "git",
@@ -9,7 +9,7 @@
         "prebuild": "npm i",
         "build": "gulp prod"
     },
-    "outputs": {
-        "bundle": "./dist"
+    "output": {
+        "./dist": "./dist"
     }
 }
