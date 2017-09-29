@@ -10,6 +10,9 @@
         "build": "gulp clean; gulp js; gulp vendor;"
     },
     "output": {
-        "./dist": "./bundle"
+        "./bundle": {
+            "from": "./dist",
+            "main": "index.js"
+        }
     }
 }
