@@ -9,7 +9,13 @@
         "build": "rollup -c rollup.config.js"
     },
     "output": {
-        "./src": "./source",
-        "./build": "./bundle"
+        "./source": {
+            "from": "./src",
+            "main": "index.js"
+        },
+        "./bundle": {
+            "from": "./build",
+            "main": "index.js"
+        }
     }
 }
