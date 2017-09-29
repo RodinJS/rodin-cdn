@@ -9,7 +9,13 @@
     },
     "excludeVersions": "<0.4.0",
     "output": {
-        "./dist": "./bundle",
-        "./src": "./source"
+        "./bundle": {
+            "from": "./dist",
+            "main": "opentype.min.js"
+        },
+        "./source": {
+            "from": "./src",
+            "main": "opentype.js"
+        }
     }
 }
