@@ -9,14 +9,21 @@
         "prebuild": "npm i",
         "build": "npm run build"
     },
+    "outputs": {
+        "./build": "./dest"
+    }
     "versions":{
         "0.0.1": {
-            "prebuild": "bower install",
-            "build": "make"
+            "commands": {
+                "prebuild": "bower install",
+                "build": "make"
+            }            
         },
         "0.2.7": {
-           "prebuild": "npm i",
-           "build": "npm run build"
+            "commands": {
+                "prebuild": "npm i",
+                "build": "npm run build"
+            }            
         }
     }
 }
