@@ -7,6 +7,7 @@
     },
     "commands": {
     },
+    "excludeVersions": "<0.4.0",
     "output": {
         "./dist": "./bundle",
         "./src": "./source"
