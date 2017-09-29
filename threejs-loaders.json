@@ -6,7 +6,6 @@
         "url": "git@github.com:serghov/three-loaders.git"
     },
     "commands": {
-        "prebuild": "npm i",
         "build": "rollup -c rollup.config.js"
     },
     "output": {
