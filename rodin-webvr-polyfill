@@ -1,0 +1,13 @@
+{
+    "name": "rodin/webvr-polyfill",
+    "semver": true,
+    "source": {
+        "type": "git",
+        "url": "git@github.com:serghov/rodin-webvr-polyfill.git"
+    },
+    "commands": {
+    },
+    "output": {
+        "./": "./bundle"
+    }
+}
