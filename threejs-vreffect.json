@@ -1,0 +1,13 @@
+{
+    "name": "threejs/vreffect",
+    "semver": false,
+    "source": {
+        "type": "git",
+        "url": "git@github.com:serghov/three-loaders.git"
+    },
+    "commands": {
+    },
+    "output": {
+        "./bundle": "./bundle"
+    }
+}
