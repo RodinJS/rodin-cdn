@@ -10,7 +10,8 @@
     "output": {
         "./bundle": {
             "from": "./bundle",
-            "main": "index.js"
+            "main": "index.js",
+            "es_module": false
         }
     }
 }
