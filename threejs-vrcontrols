@@ -1,0 +1,13 @@
+{
+    "name": "threejs/vrcontrols",
+    "semver": false,
+    "source": {
+        "type": "git",
+        "url": "git@github.com:serghov/three-vrcontrols.git"
+    },
+    "commands": {
+    },
+    "output": {
+        "./bundle": "./bundle"
+    }
+}
