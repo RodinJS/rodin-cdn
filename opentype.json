@@ -1,0 +1,14 @@
+{
+    "name": "opentype",
+    "semver": true,
+    "source": {
+        "type": "git",
+        "url": "https://github.com/nodebox/opentype.js.git"
+    },
+    "commands": {
+    },
+    "output": {
+        "./dist": "./bundle",
+        "./src": "./source"
+    }
+}
