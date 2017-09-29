@@ -8,6 +8,6 @@
     "commands": {
     },
     "output": {
-        "./build": "./bundle"
+        "./bundle": "./bundle"
     }
 }
