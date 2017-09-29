@@ -12,7 +12,7 @@
     "output": {
         "./bundle": {
             "from": "./dist",
-            "main": "index.js"
+            "main": "core/index.js"
         }
     }
 }
