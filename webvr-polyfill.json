@@ -15,8 +15,7 @@
     "versions":{
         "0.1.0": {
             "commands": {
-                "npm": "npm i",
-                "prebuild": "bower install",
+                "prebuild": "npm i; bower install",
                 "build": "make"
             }            
         },
