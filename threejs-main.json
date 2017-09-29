@@ -1,0 +1,14 @@
+
+{
+    "name": "threejs/main",
+    "semver": false,
+    "source": {
+        "type": "git",
+        "url": "https://github.com/mrdoob/three.js.git"
+    },
+    "commands": {
+    },
+    "output": {
+        "./build": "./bundle"
+    }
+}
