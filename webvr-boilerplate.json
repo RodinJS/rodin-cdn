@@ -8,6 +8,9 @@
     "commands": {
     },
     "output": {
-        "./build": "./bundle"
+        "./bundle": {
+            "from": "./build",
+            "main": "./webvr-manager.js"
+        }
     }
 }
