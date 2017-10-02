@@ -12,7 +12,13 @@
     "output": {
         "./bundle": {
             "from": "./dist",
-            "main": "core/index.js"
+            "main": "core/index.js",
+            "env": "prod"
+        },
+        "./source": {
+            "from": "./src",
+            "main": "core/index.js",
+            "env": "dev"
         }
     }
 }
