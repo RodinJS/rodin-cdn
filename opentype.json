@@ -11,11 +11,13 @@
     "output": {
         "./bundle": {
             "from": "./dist",
-            "main": "opentype.min.js"
+            "main": "opentype.min.js",
+            "env": "prod"
         },
         "./source": {
             "from": "./src",
-            "main": "opentype.js"
+            "main": "opentype.js",
+            "env": "dev"
         }
     }
 }
