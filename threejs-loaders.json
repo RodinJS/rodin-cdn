@@ -11,11 +11,13 @@
     "output": {
         "./source": {
             "from": "./src",
-            "main": "index.js"
+            "main": "index.js",
+            "env": "dev"
         },
         "./bundle": {
             "from": "./build",
-            "main": "index.js"
+            "main": "index.js",
+            "env": "prod"
         }
     }
 }
