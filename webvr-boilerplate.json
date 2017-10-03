@@ -10,7 +10,8 @@
     "output": {
         "./bundle": {
             "from": "./build",
-            "main": "webvr-manager.js"
+            "main": "webvr-manager.js",
+            "env": "prod"
         }
     }
 }
