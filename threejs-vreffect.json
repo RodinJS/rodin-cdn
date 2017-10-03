@@ -11,7 +11,8 @@
         "./bundle": {
             "from": "./bundle",
             "main": "index.js",
-            "es_module": false
+            "es_module": false,
+            "env": "prod"
         }
     }
 }
