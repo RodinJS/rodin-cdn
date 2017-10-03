@@ -20,5 +20,20 @@
             "main": "core/index.js",
             "env": "dev"
         }
+    },
+    "versions": {
+        "0.1.0": {
+            "commands": {
+                "prebuild": "",
+                "build": ""
+            },
+            "output": {
+                "./source": {
+                    "from": "./src",
+                    "main": "index.js",
+                    "env": "prod"
+                }
+            }
+        }
     }
 }
