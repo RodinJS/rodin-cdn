@@ -1,0 +1,24 @@
+{
+    "name": "rodin/core",
+    "semver": true,
+    "source": {
+        "type": "git",
+        "url": "git@github.com:serghov/rodin-core.git"
+    },
+    "commands": {
+        "prebuild": "npm i",
+        "build": "rollup -c rollup.config.js"
+    },
+    "output": {
+        "./bundle": {
+            "from": "./build",
+            "main": "rodin_core.js",
+            "env": "prod"
+        },
+        "./source": {
+            "from": "./src",
+            "main": "app.js",
+            "env": "dev"
+        }
+    }
+}
