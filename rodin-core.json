@@ -14,11 +14,6 @@
             "from": "./build",
             "main": "rodin_core.js",
             "env": "prod"
-        },
-        "./source": {
-            "from": "./src",
-            "main": "app.js",
-            "env": "dev"
         }
     }
 }
