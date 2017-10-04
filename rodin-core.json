@@ -1,6 +1,7 @@
 {
     "name": "rodin/core",
     "semver": true,
+    "recursive": true,
     "source": {
         "type": "git",
         "url": "git@github.com:serghov/rodin-core.git"
